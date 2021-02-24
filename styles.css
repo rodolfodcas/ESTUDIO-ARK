@@ -1,3 +1,8 @@
 div section h1{
     background: red;
 }
+
+div button{
+    background-color: red;
+    border-color: blue;
+}
