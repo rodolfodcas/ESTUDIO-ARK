@@ -21,4 +21,10 @@ nav div .navbar-nav{
 
 #ceo{
     font-size: 2rem;
+    font-family: cursive;
+}
+
+#nombres{
+    font-size: 1rem;
+    font-family: cursive;
 }
