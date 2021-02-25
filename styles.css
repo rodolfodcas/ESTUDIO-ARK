@@ -10,3 +10,11 @@ div button{
 section img{
     border-radius: 2px;
 }
+
+nav div .navbar-brand{
+    font-family: cursive;
+}
+
+nav div .navbar-nav{
+    font-family: cursive;
+}
