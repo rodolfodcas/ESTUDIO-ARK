@@ -22,9 +22,21 @@ nav div .navbar-nav{
 #ceo{
     font-size: 2rem;
     font-family: cursive;
+    text-align: center;
 }
 
 #nombres{
     font-size: 1rem;
     font-family: cursive;
+    text-align: center;
+}
+
+#contacto{
+    text-align: center;
+}
+
+#whats{
+    text-decoration: underline;
+    font-family:'Courier New', Courier, monospace;
+    color: black;
 }
