@@ -1,56 +1,79 @@
-div section h1{
-    background: red;
+/*INDEX*/
+#load {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
 }
 
-div button{
-    background-color: red;
-    border-color: blue;
+#spinner {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    border: 3px solid rgba(31, 30, 30, 0.3);
+    border-radius: 50%;
+    border-top-color: black;
+    animation: rotar 1s ease-in-out infinite;
 }
 
-section img{
-    border-radius: 2px;
+@keyframes rotar{
+    to{ transform: rotate(360deg); }
 }
 
-nav div .navbar-brand{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+#mas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-nav div .navbar-nav{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+/*SERVICIOS*/
+#infoacerca{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Questrial', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+}
+
+#trabajos{
+    text-decoration: underline;
+}
+
+/*ACERCADE*/
+.container{
+    display: inline-flexbox;
 }
 
 #ceo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2rem;
-    font-family:'Courier New', Courier, monospace;
-    text-align: center;
+    text-decoration: underline;
 }
 
 #nombres{
-    font-size: 1rem;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
 }
 
 #contacto{
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#whats{
-    text-decoration: underline;
-    font-family:'Courier New', Courier, monospace;
-    color: black;
+/*FONTS*/
+#logo
+{
+    font-family: 'Questrial', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
-#infoacerca{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-}
+/*DISPOSITIVOS PEQUEÑOS*/
+@media screen and (max-width: 600px){
 
-#table{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-}
-
-#body{
-    text-decoration: underline;
 }

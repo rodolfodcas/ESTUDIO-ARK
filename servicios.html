@@ -9,6 +9,8 @@
         <link rel="stylesheet" href="styles.css">
         <!--Bootstrap CSS-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Roboto:wght@300&display=swap" rel="stylesheet">
         <title>ESTUDIO ARK - Servicios</title>
     </head>
 
@@ -17,8 +19,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
-                    <img src="play-circle.svg" alt="Reproducir" width="30" height="24" class="d-inline-block align-top">
-                    ESTUDIO ARK</a>
+                    <span id="logo">ESTUDIO ARK</span></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -32,22 +33,29 @@
             </div>
         </nav>
 
-        <div id="infoacerca">
+        <br>
+        <div class="container" id="infoacerca">
           <p>Hemos participado en programas en vivo, así de bueno es nuestro trabajo, además de que les ofrecemos calidad:</p>
         </div>
+        <div class="container">
+          <h1 id="trabajos">Aquí les estaremos dejando trabajos hechos:</h1><br>
+          <div class="jumbotron">
+            <h1 class="display-4"></h1>
+            <p class="lead" id="logo">
+              <ul>
+                <li>SETPUEBLA</p>
+                </li>
+              </ul>
+              <p id="logo">Te recordamos que nuestro programa se encuentra en vivo a las 8 PM</p>
+            <p class="lead">Visita la página y observa nuestro trabajo</p>
+            <p class="lead">
+              <a class="btn btn-lg" href="http://www.setpuebla.mx" role="button" target="_blank"> > Ver ahora</a>
+            </p>
+            <hr class="my-6">
+          </div>
+        </div>
 
-        <section id="table">
-          <table class="default">
-            <thead>
-              <tr>
-                <th scope="col">EDICIÓN DE VIDEOS:</th>
-              </tr>
-            </thead>
-            <tbody id="body">
-              <td>Para cualquier tipo de evento, para publicidad, además manejamos más servicios.</td>
-            </tbody>
-          </table>
-        </section>
+        
 
         <!--JS y Bundle-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
